@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% autoescape true %}
+<html>
+  <head>
+    <!-- [START css] -->
+    <link type="text/css" rel="stylesheet" href="/bootstrap/css/main.css">
+    <!-- [END css] -->
+  </head>
+  <body>
+    <center>
+    <br>
+    <font size="+2">Xinyu_Wang's Movie Database</font>
+    <br><br><br>
+    </center>
+    <hr>
+    <br>
+    <ul>
+    <li> <a href=display?category_name=action> Browse action movies </a>
+    <li> <a href=display?category_name=animation> Browse animated movies </a>
+    <li> <a href=display?category_name=comedy> Browse comedies </a>
+    <li> <a href=display?category_name=documentary> Browse documentaries </a>
+    <li> <a href=display?category_name=drama> Browse dramas </a>
+    <li> <a href=display?category_name=horror> Browse horror movies </a>
+    <li> <a href=display?category_name=musical> Browse musicals </a>
+    <li> <a href=display?category_name=scifi> Browse science fiction movies </a>
+    </ul>
+        
+    <ul>
+    <li> <a href=search> Search for movies </a>
+    </ul>
+        
+    <ul>
+    <li> <a href=enter> Enter new movie info </a>
+    </ul>
+        
+
+  </body>
+</html>
+{% endautoescape %}

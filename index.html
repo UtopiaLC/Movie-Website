@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="/bootstrap/css/main.css" />
+    </head>
+    <body>
+        <center>
+            <br>
+            <font size="+2" color=0000CC> Current {{category_name}} movies in database </font>
+            <br><br>
+        </center>
+        <hr>
+        
+        <!-- [START greetings] -->
+        {% for greeting in greetings %}
+        <div class="row">
+            <blockquote>{{greeting.title}}, {{greeting.director}}, {{greeting.actor1}}, {{greeting.actor2}}, {{greeting.year}}, {{greeting.duration}} mins</blockquote>
+        </div>
+        {% endfor %}
+        <!-- [END greetings] -->
+        
+        <br><br>
+        <center>
+            <a href=.> Return to main page </a>
+        </center>
+    </body>
+</html>
+
